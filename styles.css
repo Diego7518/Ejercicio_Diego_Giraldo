@@ -1,29 +1,31 @@
 body { font-family: Arial, 
     sans-serif;
-background-color: dodgerblue; }
+background-color: dodgerblue;
+margin: auto;
+}
 
 .header, 
 .footer { background-color: #003366; 
     color: white; 
     padding: 10px 20px; 
     width: 100%;  
+    margin: auto;
         }
 
-.header { display: flex; 
+.header { 
+    display: flex; 
     align-items: center; 
     margin-top: -10px;
     width: 100%;
       }
     
-    .button{
-        width: -200px;
-        height: -200px;
+      .button{
         background-color: #147be9;
         border-radius: 10px;
         list-style: none;
         margin-right: 20px;
       }
-    
+   
       .button2{
         background-color: #147be9;
         border-radius: 10px;
@@ -48,7 +50,9 @@ background-color: dodgerblue; }
 .logo { font-size: 30px;
    margin-top: -60px; 
    margin-left: 180px;
-   color: aqua;}
+   color: aqua;
+   width: 50%;
+   height: 25%;}
 
 .nav a { color: white; 
     text-decoration: skyblue;
@@ -90,23 +94,79 @@ background-color: dodgerblue; }
     margin-left: 20px;
     border-radius: 10px;
 }
+.f{
+    width: 100%;
+    background-color: #147be9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-.mn-son{
+.armenia{
+    height: 19rem;
+    width: 20rem;
+}
+
+.meta{
+    height: 19rem;
+    width: 20rem;
+}
+
+.nariño{
+    height: 19rem;
+    width: 20rem;
+}
+
+.cartagena{
+    height: 19rem;
+    width: 20rem;
+}
+
+.san_andres{
+    height: 19rem;
+    width: 20rem;
+}
+
+.pereira{
+    height: 19rem;
+    width: 20rem;
+}
+
+.cali{
+    height: 19rem;
+    width: 20rem;
+}
+
+.bucaramanga{
+    height: 19rem;
+    width: 20rem;
+}
+
+.guajira{
+    height: 19rem;
+    width: 20rem;
+}
+
+.medellin{
+    height: 19rem;
+    width: 20rem;
+}
+
+.choco{
+    height: 19rem;
+    width: 20rem;
+}
+
+.img{
+   border-radius: 25px 25px 25px 25px;
+   width: 19.5rem;
+   height: 13rem;
+}
+
+.tittle{
     border-radius: 15px;
     background-color: bisque;
     margin: 5px;
     text-align: center;
-    padding: 5px;
 }
-
-.son1{
-    display: flex;
-    margin-left: -1500px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    column-width: auto;
-}
-
-
-
-
